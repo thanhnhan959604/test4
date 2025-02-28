@@ -1,0 +1,110 @@
+body{
+
+    background-image: url(./banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    margin: 0;
+            
+}
+.TieuDe{
+    background-color: rgb(36, 31, 28);
+    max-width:100%;
+}
+#TuyChon{
+    color: white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: white;
+    display: block;
+}
+.DoiMau:hover{
+    background-color: chocolate;
+}
+.DoiMau{
+    text-align: center;
+}
+.NoiDung{
+    text-align: center;
+    background-color: rgba(209, 162, 61, 0.6);
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 25%;
+    padding: 20px 25px;
+    color: white;
+}
+.Text {
+    position: relative;
+    z-index: 1;
+}
+.Menu{
+    text-align: left;
+   width: 15%;
+   padding: 20px 25px;
+   transform: translate(0px, 400px);
+    background-color:rgba(209, 162, 61);
+}
+.MenuDung a{
+    text-decoration: none;
+    margin: 10px;
+
+
+}
+.MenuDung hr{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+
+
+}
+.MenuDung a:hover{
+    text-decoration: underline;
+}
+.dropdown{
+    overflow: hidden;
+    padding: 30px 1px;
+}
+.dropdown .dropbtn{
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color:white;
+    background-color:initial;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:rgb(212, 197, 65);
+    color: black;
+    min-width: 180px;
+    z-index: 1;
+    top: 12.40%;
+    left: 25.5%;
+    
+}
+.dropdown-content a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    background-color: coral;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.duoi{
+    background-color: black;
+    color: white;
+    text-align: center;
+    transform: translateY(500px);
+    padding-bottom: 90px;
+}
+
